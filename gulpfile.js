@@ -36,7 +36,7 @@ const args = Utils.getCommandLineArguments();
 
 // Build the language files into a single file per language.
 gulp.task('lang', (done) => {
-    new BuildLangTask().run('en', paths.lang, done);
+    new BuildLangTask().run('fa', paths.lang, done);
 });
 
 // Convert config.json into a TypeScript class.

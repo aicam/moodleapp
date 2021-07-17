@@ -350,6 +350,9 @@ export class MoodleMobileApp implements OnInit {
                 this.eventsProvider.trigger(CoreEventsProvider.ORIENTATION_CHANGE);
             }
         );
+        this.langProvider.changeCurrentLanguage('fa').finally(() => {
+            this.eventsProvider.trigger(CoreEventsProvider.LANGUAGE_CHANGED, 'fa');
+        });
     }
 
     /**

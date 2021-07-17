@@ -105,7 +105,6 @@ export class CoreLoginSitePage {
             displayurl: true,
             ...siteFinderSettings
         };
-
         // Load fixed sites if they're set.
         if (this.loginHelper.hasSeveralFixedSites()) {
             // Deprecate listnourl on 3.9.3, remove this block on the following release.
