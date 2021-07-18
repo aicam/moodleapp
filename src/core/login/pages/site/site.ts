@@ -364,7 +364,8 @@ export class CoreLoginSitePage {
             this.enteredSiteUrl = {
                 url: search,
                 name: 'connect',
-                noProtocolUrl: CoreUrl.removeProtocol(search),
+                // TODO: filter noProtocolUrl based on server
+                noProtocolUrl: 'koohrang.barineducation.ir' //CoreUrl.removeProtocol(search),
             };
         } else {
             this.enteredSiteUrl = null;

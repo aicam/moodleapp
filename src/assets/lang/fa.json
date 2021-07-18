@@ -1296,7 +1296,7 @@
     "core.login.resendemail": "ارسال مجدد ایمیل",
     "core.login.security_question": "سؤال امنیتی",
     "core.login.selectacountry": "انتخاب کشور",
-    "core.login.siteaddress": "آدرس سایت",
+    "core.login.siteaddress": "نام مدرسه",
     "core.login.siteinmaintenance": "سایت شما در حالت نگهداشت می باشد",
     "core.login.siteurl": "نشانی سایت",
     "core.login.siteurlrequired": "نشانی سایت لازم است. مثال: <i>http://www.yourmoodlesite.abc یا https://www.yourmoodlesite.efg</i>",
