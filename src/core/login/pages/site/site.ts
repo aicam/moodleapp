@@ -251,6 +251,8 @@ export class CoreLoginSitePage {
             });
 
         } else {
+            // TODO: connect to server
+            url = 'https://koohrang.barineducation.ir';
             // Not a demo site.
             this.sitesProvider.checkSite(url)
                 .catch((error) => {
